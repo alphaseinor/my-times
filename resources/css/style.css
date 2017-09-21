@@ -1,0 +1,16 @@
+.header{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  width - 100%
+  height: 80px;
+  border-bottom: 1px solid black;
+
+}
+.logo span{
+  color: mediumaquamarine;
+}
+nav span{
+  display: inline-block;
+}

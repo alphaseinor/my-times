@@ -1,18 +1,34 @@
+a {
+  color: black;
+}
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
 .header{
   display: flex;
   align-items: center;
   position: fixed;
   z-index: 100;
-  width - 100%
+  width: 100%;
   height: 80px;
   border-bottom: 1px solid black;
+  font-family: verdana;
+  font-size: 14px;
   font-weight: bold;
 
+}
+
+.header nav{
+  padding-right: 40px;
 }
 
 .logo{
   display: flex;
   align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
 }
 
 .logo span{
@@ -20,10 +36,8 @@
 
 }
 
-body{
-  margin: 0px;
-}
-
-nav span{
-  display: inline-block;
+.flexbox_container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }

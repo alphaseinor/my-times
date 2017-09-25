@@ -1,13 +1,12 @@
 a {
   color: black;
 }
+
 nav span{
   display: inline-block;
   padding: 20px 10px;
 }
-div{
-    border: 1px solid black;
-}
+
 body{
   margin: 0px;
 }
@@ -93,4 +92,23 @@ body{
   font-weight: bold;
   color: white;
   font-size: 30px;
+}
+.stories{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.stories .text-content {
+  height: 250px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.narrative {
+  margin: 16px;
 }

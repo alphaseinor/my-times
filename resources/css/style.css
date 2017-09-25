@@ -11,6 +11,13 @@ body{
   margin: 0px;
 }
 
+h2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: georgia;
+  font-size: 30px;
+}
+
 .header{
   display: flex;
   align-items: center;
@@ -86,8 +93,13 @@ body{
 .cat-ceo.image-content{
   background-image: url("../images/img-story-1.png");
 }
+
 .image-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 300px;
+  margin-top: 15px;
   font-family: Georgia;
   font-weight: bold;
   color: white;

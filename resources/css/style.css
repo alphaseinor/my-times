@@ -5,6 +5,12 @@ nav span{
   display: inline-block;
   padding: 20px 10px;
 }
+div{
+    border: 1px solid black;
+}
+body{
+  margin: 0px;
+}
 
 .header{
   display: flex;
@@ -13,6 +19,7 @@ nav span{
   z-index: 100;
   width: 100%;
   height: 80px;
+  background-color: white;
   border-bottom: 1px solid black;
   font-family: verdana;
   font-size: 14px;
@@ -35,9 +42,31 @@ nav span{
   color: mediumaquamarine;
 
 }
+.main{
+  display: flex;
+  padding-top: 116px;
+  margin: 0 auto 78px auto;
+  width: 1232px;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+.column.large {
+  width: 630px;
+}
 
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
 .flexbox_container{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+
 }
